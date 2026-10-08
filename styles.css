@@ -3,6 +3,8 @@
 .header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .header h1 { margin: 0; font-size: 18px; }
 .subtitle { margin: 4px 0 12px; color: #64748b; font-size: 12px; }
+.settings { display: grid; gap: 7px; margin-bottom: 10px; padding: 9px; border: 1px solid #dbe5ef; border-radius: 7px; background: #fff; font-size: 11px; }
+.settings > label { display: grid; gap: 3px; color: #475569; font-weight: 600; }.settings textarea { min-height: 28px; resize: vertical; border: 1px solid #cbd5e1; border-radius: 4px; font: inherit; }.settings-row { display: flex; align-items: end; justify-content: space-between; gap: 8px; }.settings-row select, .settings-row button { font: inherit; }.settings-row button { padding: 4px 6px; border: 0; border-radius: 4px; color: #fff; background: #0f766e; cursor: pointer; }.settings fieldset { display: flex; flex-wrap: wrap; gap: 4px 7px; margin: 0; padding: 4px; border: 0; color: #475569; }.settings legend { padding: 0; }.settings fieldset label { white-space: nowrap; }
 .popup-body h2 { margin: 13px 0 8px; font-size: 13px; }
 .popup-body hr { border: 0; border-top: 1px solid #e2e8f0; }
 .switch { position: relative; display: inline-block; width: 42px; height: 24px; }
@@ -16,6 +18,7 @@
 .log-card.third-party { border-left-color: #dc2626; }
 .log-header { display: flex; justify-content: space-between; gap: 8px; margin-bottom: 7px; font-size: 11px; }
 .badge-type { color: #b91c1c; font-weight: 700; }
+.severity-critical { color: #991b1b; }.severity-moderate { color: #a16207; }
 .timestamp { color: #64748b; white-space: nowrap; }
 .flow-diagram { display: flex; align-items: center; gap: 4px; overflow-x: auto; font-size: 11px; }
 .node { padding: 3px 6px; border-radius: 4px; background: #edf2f7; white-space: nowrap; }

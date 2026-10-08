@@ -1,0 +1,5 @@
+{
+  "name": "datashield-extension",
+  "private": true,
+  "scripts": { "test": "node tests/detection.test.js" }
+}
