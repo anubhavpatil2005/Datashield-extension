@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DataShield Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="popup-body">
+    <header class="header">
+      <h1>🛡 DataShield</h1>
+      <label class="switch" aria-label="Enable DataShield">
+        <input type="checkbox" id="toggle-shield" checked>
+        <span class="slider"></span>
+      </label>
+    </header>
+    <p class="subtitle">Sensitive data flow monitor</p>
+    <hr>
+    <h2>Recent data travel</h2>
+    <main id="flow-container" aria-live="polite"></main>
+    <footer class="actions"><button id="clear-logs" type="button">Clear history</button></footer>
+    <script src="popup.js"></script>
+  </body>
+</html>
